@@ -1,0 +1,191 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(254, 243, 231);
+}
+nav {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D5C25F;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-button-container {
+    padding: 10px;
+    display: inline-block;
+}
+.nav-button {
+    padding: 20px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.leftHero {
+    display: flex;
+    justify-content: flex-end;
+}
+.heroFlex {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#heroRow {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  
+}
+button {
+    display: block;
+    padding: 15px;
+    border-radius: 4px;
+    width: 40%;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #3D5C61;
+    color: white;
+    transform: translate(80%, 40%);
+}
+.heading {
+    margin: 0;
+    padding: 20px;
+    background-color: #D5C25F;
+    color: black;
+}
+/* My UX Skills section coded using CSS flex */
+.flexContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(254, 243, 231);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+}
+.flexContainer div {
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}
+.skill-1 {
+    flex: 1;
+    width: 33%;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+.skill-2 {
+    flex: 1;
+    width: 33%;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+.skill-3 {
+    flex: 1;
+    width: 33%;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+/* My Work Section Grid */
+.myWork {
+    padding: 100px 30px
+}
+.workGrid {
+    margin:auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas: 
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+    ;
+}
+.workGrid img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+  }
+.workGrid button {
+  display: block;
+  align-items: flex-end;
+}
+.img1 {
+    grid-area: img1;
+}
+.img2 {
+    grid-area: img2;
+}
+.img3 {
+    grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 80px;
+}
+.content1 {
+    grid-area: content1;
+}
+.content2 {
+    grid-area: content2;
+}
+.content3 {
+    grid-area: content3;
+}
+
+/*footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(152, 149, 193);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button {
+    display: flex;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 600){
+    .flexContainer .flexContainer div{
+        flex-direction: column;
+    }
+    .skill-1, .skill-2, .skill-3 {
+        width: 100;
+    }
+    .workGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px 350px 350px 350px 350px 350px;
+        grid-template-areas: 
+            "img1" 
+            "content1"
+            "img2" 
+            "content2"
+            "img3" 
+            "content3"
+        ;
+    }
+}
