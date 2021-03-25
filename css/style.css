@@ -116,7 +116,7 @@ button {
     grid-template-rows: 350px 350px 350px;
     grid-template-areas: 
     "img1 content1"
-    "img2 content2"
+    "content2 img2"
     "img3 content3"
     ;
 }
