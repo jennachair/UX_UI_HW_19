@@ -21,6 +21,9 @@ nav {
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.smoothScroll {
+    font-weight: 600;
+}
 .heroSection {
     display: flex;
     justify-content: space-between;
