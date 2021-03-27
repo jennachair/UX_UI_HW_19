@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Portfolio Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -30,14 +32,14 @@
     <section class="heroSection">
         </div>
         <div class="leftHero">
-            <img src="images/Hero.svg" alt="Hiya, I'm Jenna Biro!">
+            <img src="images/Hero_v2.svg" alt="Hello! I'm Jenna Biro!">
         </div> 
         <div class="heroContent">
-            <h1>UX/UI DESIGNER</h1>
-            <p>Using human-centered design and research to create delightful web and mobile experiences for users!
-                As a designer and human, especially fond of teamwork and storytelling.</p>
-            <div class="smoothScroll">
-                <a href="">SEE MY WORK!</a> 
+            <h1>Sometimes life spins you upside down...</h1>
+            <p>Never fear! By the magic of user experience, I'll make sure you'll enjoy the journey around.</p>
+            <p>As a UX/UI designer and human, I'm especially fond of teamwork, storytelling, and using human-centered design and research to create delightful experiences for users.</p>
+            <div class="smoothScroll" id="section1">
+                <a href="#section2">SEE MY WORK!</a> 
             </div>
         </div>
         <div class="rightHero">
@@ -65,19 +67,23 @@
         </div>
     </section>
 <!--My Work Section Grids--> 
-    <h1 class="heading">My Work</h1>
+    <div class="smoothScroll" id="section2">    
+        <h1 class="heading">My Work</h1>
+    </div>
     <section class="myWork">
         <div class="workGrid">
             <div class="img1"> 
                 <img src="images/Paws_cover.png" alt="PAWS Redesign">
             </div>
             <div class="content1">
-                <h4>RESPONSIVE WEB REDESIGN: PAWS of Austin Animal Rescue Nonprofit 3 Week 3-Person Team Project Role: UX/UI DESIGNER</h4>
-                <p>Redesign the web experience by making it more responsive. This will bridge the gap between users who want to get involved and the organization, thus  streamlining the process and increasing revenue and attention.</p>
+                <h4>RESPONSIVE WEB REDESIGN: PAWS of Austin<br>
+                    3-Week/3-Person Team Project</h4>
+                <p>A responsive redesign of a local animal rescue nonprofit organization's website. </p>
                 <button>SEE MORE</button>   
             </div>
             <div class="content2"> 
-                <h4>MOBILE PROTOTYPE: CHOOSINE Original App Design 3 Week 4-Person Team Project Role: UX/UI Designer</h4>
+                <h4>MOBILE PROTOTYPE: CHOOSINE<br> 
+                    3-Week/4-Person Team Project</h4>
                 <p>Dining Decisions Made Easy. CHOOSINE is a mobile application that eliminates the indecisiveness of where to eat with others.</p>
                 <button>SEE MORE</button>
             </div>
@@ -87,12 +93,16 @@
             <div class="img3"> 
                 <img src="images/vaycautious_cover.png" alt="VayCautious Mobile Prototype"></div>
             <div class="content3"> 
-                <h4>MOBILE PROTOTYPE: VayCautious Original App Design 4 Week Individual Project Role: UX/UI Designer</h4>
+                <h4>MOBILE PROTOTYPE: VayCautious<br> 
+                    Original Travel App Design Challenge</h4>
                 <p>A safe and informative COVID-19 air travel app to comfort travelers concerned about air travel during the pandemic with efficient booking in conjunction with destination based COVID-19 data.</p>
                 <button>SEE MORE</button>
             </div>
         </div>
     </section>
+    <div class="smoothScroll" id="section2">
+            <a href="#section1">Back to top!</a>
+        </div>
 <!--Footer-->   
     <footer>
         <div class="leftFooter">
@@ -118,5 +128,6 @@
         </div>
     </footer>
 </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
     <script src="js/index.js"></script>
 </html>
