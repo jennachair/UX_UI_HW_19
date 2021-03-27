@@ -1,12 +1,11 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: rgb(254, 243, 231);
+    background-color: #EFEBF1
 }
 nav {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    background-color: #D5C25F;
 }
 .logo {
     display: flex;
@@ -25,12 +24,12 @@ nav {
 }
 .heroSection {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-align: center;
 }
 .leftHero {
@@ -38,7 +37,7 @@ nav {
     justify-content: flex-end;
 }
 .heroContent {
-    margin: 10px
+    margin: 50px
 }
 .heroFlex {
     display: flex;
@@ -53,12 +52,13 @@ nav {
   
 }
 .rightHero img {
-    width: 250px;
-    height: 250px;
+    width: 436px;
+    height: 436px;
     animation: spin 10s infinite;
 }
 button {
     display: block;
+    align-items: center;
     padding: 15px;
     border-radius: 4px;
     width: 40%;
@@ -70,10 +70,14 @@ button {
     transform: translate(80%, 40%);
 }
 .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 20px;
-    background-color: #D5C25F;
     color: black;
+    font-weight: bold;
+  
 }
 /* My UX Skills section coded using CSS flex */
 .flexContainer {
@@ -84,12 +88,12 @@ button {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0 10px;
+    padding: 0;
     text-align: center;
 }
 .flexContainer div {
     margin: auto;
-    padding: 20px;
+    padding: 10px 30px;
     align-items: center;
 }
 .skill-1 {
@@ -118,7 +122,8 @@ h1, h2, h3, h4 {
 }
 /* My Work Section Grid */
 .myWork {
-    padding: 10px 30px
+    padding: 10px 30px;
+    justify-content: center;
 }
 .workGrid {
     margin: 0;
