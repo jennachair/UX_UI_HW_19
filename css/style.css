@@ -1,6 +1,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #EFEBF1
+    background-color: #EFEBF1;
+    color: #1b0c2b;
 }
 nav {
     margin: 0;
@@ -90,9 +91,8 @@ button {
     justify-content: center;
     margin: 0;
     padding: 20px;
-    color: black;
+    color: #1b0c2b;
     font-weight: bold;
-  
 }
 /* My UX Skills section coded using CSS flex */
 .flexContainer {
@@ -133,7 +133,9 @@ button {
     text-align: center;
 }
 h1, h2, h3, h4 {
-    font-weight: bold;
+    font-family: 'Epilogue', sans-serif;
+    color: #1b0c2b;
+    font-weight:800;
 }
 /* My Work Section Grid */
 .myWork {
@@ -192,6 +194,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color:rgb(152, 149, 193);
+    font-family: 'Epilogue', sans-serif;
 }
 .footer-button-container {
     display: flex;
@@ -201,7 +204,7 @@ footer {
 .footer-button {
     display: flex;
     padding: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 @media only screen and (max-width: 600){
     .flexContainer .flexContainer div{
