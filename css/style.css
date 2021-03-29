@@ -14,10 +14,25 @@ nav {
 .nav-button-container {
     padding: 10px;
     display: inline-block;
+    text-decoration: none;
 }
 .nav-button {
+    color: #0f0a14;
     padding: 20px;
     display: inline-block;
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #3D5C61;
+    font-style: italic;
+}
+a:active {
+    color: #3D5C61;
+    
 }
 .smoothScroll {
     font-weight: 600;
@@ -60,7 +75,7 @@ button {
     display: block;
     align-items: center;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 100px;
     width: 40%;
     font-size: 15px;
     font-weight: 500;
