@@ -40,7 +40,8 @@ a:active {
     color: #3D5C61;
 }
 .smoothScroll {
-    font-weight: 600;
+    font-weight: 700;
+    font-family: 'Epilogue', sans-serif;
 }
 /* Hero */
 .heroSection {
@@ -240,5 +241,4 @@ footer {
             "img3" 
             "content3"
         ;
-    }
-}
+    } }}     
